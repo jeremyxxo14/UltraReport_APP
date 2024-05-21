@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import Auth from "./components/Auth";
 import Login from "./components/Login";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Nav />
         <Login />
+        <Auth />
         <Footer />
       </div>
     </>
