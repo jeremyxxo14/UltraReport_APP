@@ -18,7 +18,7 @@ function Login() {
           />
         </div>
         <div>
-          <button className="button-ini p-3 rounded-full border-2 border-solid border-stone-950 text-zinc-50 borde">
+          <button className=" button-ini p-3 rounded-full border-2 border-solid border-stone-950 text-zinc-50 borde transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1  hover:bg-red-700 ">
             INGRESAR
           </button>
         </div>

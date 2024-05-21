@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Auth from "./components/Auth";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
         <div className="Logo-Fon ">
           <Nav />
+          <Login />
         </div>
         <Footer />
       </div>
