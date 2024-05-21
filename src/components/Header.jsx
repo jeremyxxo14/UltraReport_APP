@@ -18,7 +18,7 @@ function Header() {
             />
           </svg>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
           <span className="  text-zinc-50">Sup.</span>
           <span className="  text-zinc-50">A.R.P </span>
           <span className="  text-zinc-50">O.B.S</span>
