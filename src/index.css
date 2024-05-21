@@ -60,26 +60,24 @@ input {
 }
 
 .AddButtonSup {
-  background-image: url(addreportlogo.svg);
-  background-color: #17b02b;
-  background-size: unset;
-
-  background-color: linear-gradient(
+  background-image: linear-gradient(
     rgba(23, 176, 43, 1),
     rgba(0, 21, 33, 0.888)
   );
-
-  z-index: 1000;
+}
+.AddButtonSup img {
+  z-index: -1;
 }
 
 .RepButtonSup {
-  background-color: #4597be;
-  background-size: unset;
   z-index: 1000;
   background-image: linear-gradient(
     rgba(69, 151, 190, 1),
     rgba(15, 63, 95, 0.888)
   );
+}
+.RepButtonSup img {
+  z-index: -1;
 }
 
 .BusqReportSup {
@@ -89,4 +87,17 @@ input {
   );
   z-index: 1000;
   box-shadow: #000000;
+}
+
+.BusqReportSup img {
+  z-index: -1;
+}
+
+.Fontnativo {
+  font-family: "Solway", serif;
+  font-size: xx-large;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
+  color: azure;
 }

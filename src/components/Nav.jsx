@@ -2,17 +2,27 @@ function Nav() {
   return (
     <div className="NavBotonesSup flex flex-col justify-center  ">
       <div className="Contenedor-botonessup flex flex-col items-center my-10">
-        <button className="AddButtonSup  p-3 border-2 border-solid border-stone-950 w-80  my-10 h-36 rounded-full ">
+        <button
+          className="AddButtonSup  p-3 border-2 border-solid border-stone-950 w-80  my-10 h-36 rounded-full 
+        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
+        >
+          <img src="addreportlogo.svg" className="absolute w-32 h-36"></img>
           AGREGAR REPORTE
         </button>
 
-        <button className="RepButtonSup p-3 border-2 border-solid border-stone-950 w-80 my-5 h-36 rounded-full">
-          <svg className="absolute"></svg>
+        <button
+          className="RepButtonSup Fontnativo p-3 border-2 border-solid border-stone-950 w-80 my-5 h-36 rounded-full
+        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
+        >
+          <img src="reportes.svg" className="absolute w-32 h-36"></img>
           REPORTES
         </button>
 
-        <button className="BusqReportSup p-3 border-2 border-solid border-stone-950 w-80 my-5  h-36 rounded-full ">
-          <svg className="absolute"> </svg>
+        <button
+          className="BusqReportSup p-3 border-2 border-solid border-stone-950 w-80 my-5  h-36 rounded-full
+        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center "
+        >
+          <img src="lupa.svg" className="absolute w-32 h-36"></img>
           BUSQUEDA AVANZADA DE REPORTES
         </button>
       </div>
