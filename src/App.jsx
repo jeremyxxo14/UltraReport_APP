@@ -1,13 +1,13 @@
-import Auth from "./components/Auth";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Login from "./components/Login";
 
 function App() {
   return (
     <>
       <div className="Contenedor-APP">
         <Header />
-        <Auth />
+        <Login />
         <Footer />
       </div>
     </>

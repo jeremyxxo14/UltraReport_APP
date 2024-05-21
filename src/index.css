@@ -30,3 +30,16 @@
   background-repeat: repeat;
   background-size: unset;
 }
+
+input {
+  font-family: "Solway", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.button-ini {
+  background-image: linear-gradient(
+    rgba(110, 10, 10, 0.757),
+    rgba(33, 0, 0, 0.888)
+  );
+}
