@@ -7,14 +7,14 @@ function App() {
   return (
     <>
       <div className="Contenedor-APP ">
+        <img
+          className="logoUltraReport absolute flex items-center "
+          src="logoUltraReport.png"
+          alt=""
+        />
         <Header />
-        <Login />
-
         <Nav />
-        <div className="Logo-Fon ">
-          <Nav />
-          <Login />
-        </div>
+        <Login />
         <Footer />
       </div>
     </>
