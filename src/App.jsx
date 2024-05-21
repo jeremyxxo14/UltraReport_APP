@@ -1,16 +1,15 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Login from "./components/Login";
 import Nav from "./components/Nav";
 
 function App() {
   return (
     <>
-      <div className="Contenedor-APP">
+      <div className="Contenedor-APP ">
         <Header />
-        <Login />
-        <Auth />
-        <Nav />
+        <div className="Logo-Fon ">
+          <Nav />
+        </div>
         <Footer />
       </div>
     </>

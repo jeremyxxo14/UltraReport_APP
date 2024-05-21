@@ -4,6 +4,7 @@
 
 .Ultrareport-string1 {
   font-family: "Solway", serif;
+  font-size: xx-large;
   font-weight: 700;
   font-style: normal;
   text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
@@ -13,6 +14,7 @@
 .Ultrareport-string2 {
   font-family: "Solway", serif;
   font-weight: 700;
+  font-size: xx-large;
   font-style: normal;
   color: #bd1d1e;
   text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
@@ -29,6 +31,12 @@
   background-image: url(carbon_fibre.png);
   background-repeat: repeat;
   background-size: unset;
+}
+
+.Logo-Fon {
+  background-image: url(logoUltraReport.png);
+  background-size: cover;
+  background-repeat: round;
 }
 
 input {
