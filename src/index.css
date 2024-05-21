@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Ultrareport-string1 {
+  font-family: "Solway", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Ultrareport-string2 {
+  font-family: "Solway", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #bd1d1e;
+}
