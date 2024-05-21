@@ -1,9 +1,5 @@
 function Index() {
-    return (
-    <div>
-        Clientes
-    </div>
-    )
+  return <div>Clientes</div>;
 }
 
-export default Index
+export default Index;
