@@ -30,3 +30,30 @@
   background-repeat: repeat;
   background-size: unset;
 }
+
+.NavBotonesSup {
+  font-family: "Solway", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
+  color: azure;
+}
+
+.AddButtonSup {
+  background-image: url(addreportlogo.svg);
+  background-color: #17b02b;
+  background-size: unset;
+  z-index: 1000;
+}
+
+.RepButtonSup {
+  background-color: #4597be;
+  background-size: unset;
+  z-index: 1000;
+}
+
+.BusqReportSup {
+  background-color: #c4412e;
+  background-size: unset;
+  z-index: 1000;
+}
