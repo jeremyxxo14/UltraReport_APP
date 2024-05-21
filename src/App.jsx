@@ -8,6 +8,9 @@ function App() {
     <>
       <div className="Contenedor-APP ">
         <Header />
+        <Login />
+
+        <Nav />
         <div className="Logo-Fon ">
           <Nav />
           <Login />
