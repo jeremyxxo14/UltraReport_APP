@@ -7,7 +7,7 @@ function Auth() {
           src="auth-foto.jpg"
           alt=""
         />
-        <span className="ml-2 py-2 text-zinc-50">Juan Pablo Rodriguez</span>
+        <span className="py-2 px- text-zinc-50">Juan Pablo Rodriguez</span>
       </div>
     </>
   );
