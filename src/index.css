@@ -6,6 +6,8 @@
   font-family: "Solway", serif;
   font-weight: 700;
   font-style: normal;
+  text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
+  color: azure;
 }
 
 .Ultrareport-string2 {
@@ -13,6 +15,7 @@
   font-weight: 700;
   font-style: normal;
   color: #bd1d1e;
+  text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
 }
 
 * {
