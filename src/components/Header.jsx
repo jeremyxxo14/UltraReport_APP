@@ -1,8 +1,8 @@
 function Header() {
   return (
     <>
-      <div className="Contendor-Header ">
-        <div>
+      <div className="Contendor-Header flex ">
+        <div className="Back-Button mx-5 p-3 rounded-2xl bg-zinc-300 block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -18,10 +18,10 @@ function Header() {
             />
           </svg>
         </div>
-        <div className="right-0 mx-5 px-10">
+        <div className="right-0 mx-1 px-10">
           <span className="absolute right-0 text-zinc-50">Sup.</span>
         </div>
-        <div className="flex justify-center items-center max-w-100 max-h-100 bg-black">
+        <div className="flex justify-center items-center max-w-100 max-h-100 ">
           <img className="w-12" src="authorization.png" alt="" />
         </div>
       </div>

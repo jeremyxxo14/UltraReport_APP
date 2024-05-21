@@ -6,8 +6,10 @@ Header;
 function App() {
   return (
     <>
-      <Header />
-      <Footer />
+      <div className="Contenedor-APP">
+        <Header />
+        <Footer />
+      </div>
     </>
   );
 }
