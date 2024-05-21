@@ -55,6 +55,12 @@ input {
   background-image: url(addreportlogo.svg);
   background-color: #17b02b;
   background-size: unset;
+
+  background-color: linear-gradient(
+    rgba(23, 176, 43, 1),
+    rgba(0, 21, 33, 0.888)
+  );
+
   z-index: 1000;
 }
 
@@ -62,10 +68,17 @@ input {
   background-color: #4597be;
   background-size: unset;
   z-index: 1000;
+  background-image: linear-gradient(
+    rgba(69, 151, 190, 1),
+    rgba(15, 63, 95, 0.888)
+  );
 }
 
 .BusqReportSup {
-  background-color: #c4412e;
-  background-size: unset;
+  background-image: linear-gradient(
+    rgba(196, 32, 32, 0.757),
+    rgba(33, 0, 0, 0.888)
+  );
   z-index: 1000;
+  box-shadow: #000000;
 }

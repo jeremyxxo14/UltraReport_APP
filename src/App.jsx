@@ -9,7 +9,7 @@ function App() {
       <div className="Contenedor-APP">
         <Header />
         <Login />
-        <Auth />
+
         <Nav />
         <Footer />
       </div>
