@@ -18,12 +18,26 @@ function Nav() {
           REPORTES
         </button>
 
+        <button className="BusqReportSup p-3 border-2 border-solid border-stone-950 w-80 my-5  h-36 rounded-full  hovernat flex items-center justify-center ">
+          <img src="lupa.svg" className="absolute w-32 h-36"></img>
+          BUSQUEDA AVANZADA
+        </button>
+      </div>
+
+      <div className="Contenedor-Buttons-Apr  flex flex-col items-center justify-center ">
         <button
-          className="BusqReportSup p-3 border-2 border-solid border-stone-950 w-80 my-5  h-36 rounded-full
+          className="AddButtonApr p-3 border-2 border-solid border-stone-950 w-80  my-10 h-36 rounded-full 
         transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center "
         >
-          <img src="lupa.svg" className="absolute w-32 h-36"></img>
-          BUSQUEDA AVANZADA DE REPORTES
+          <img src="addreportlogo.svg" className="absolute w-32 h-36"></img>
+          AGREGAR INFORME
+        </button>
+        <button
+          className="BusqButtonApr p-3 border-2 border-solid border-stone-950 w-80  my-10 h-36 rounded-full 
+        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center "
+        >
+          <img src="reportes.svg" className="absolute w-32 h-36"></img>
+          INFORMES
         </button>
       </div>
     </div>

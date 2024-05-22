@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Auth from "./components/Auth";
 import Login from "./components/Login";
 import Card_report from "./components/Card_Report";
+import Logout from "./components/Logout";
 
 function App() {
   return (
@@ -15,10 +16,12 @@ function App() {
           alt=""
         />
         <Header />
+        <Auth />
         <Nav />
         <Login />
         <Auth />
         <Card_report />
+        <Logout />
         <Footer />
       </div>
     </>

@@ -20,13 +20,17 @@
   text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
 }
 
+/* font nativo*/
+
 * {
   font-family: "Rubik Mono One", monospace;
   font-weight: 400;
   font-style: normal;
   top: 0;
+  color: azure;
 }
 
+/*CONTENEDORES INDEX*/
 .Contenedor-APP {
   background-image: url(carbon_fibre.png);
   background-repeat: repeat;
@@ -46,19 +50,15 @@ input {
   );
 }
 
-.NavBotonesSup {
-  font-family: "Solway", serif;
-  font-weight: 700;
-  font-style: normal;
-  text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
-  color: azure;
-}
+/*BOTONES NAV*/
+
+/*BOTONES SUPERVISOR*/
 
 .AddButtonSup {
   border-radius: 98px;
   background: #17b02b;
   box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
-
+  z-index: 1000;
   background-image: linear-gradient(
     rgba(23, 176, 43, 1),
     rgba(0, 21, 33, 0.888)
@@ -70,7 +70,6 @@ input {
 
 .RepButtonSup {
   border-radius: 98px;
-  background: #17b02b;
   box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
   z-index: 1000;
   background-image: linear-gradient(
@@ -84,9 +83,8 @@ input {
 
 .BusqReportSup {
   border-radius: 98px;
-  background: #17b02b;
   box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
-  background-image: linear-gradient(rgb(255, 0, 0), rgba(33, 0, 0, 0.888));
+  background-image: linear-gradient(rgba(179, 8, 56, 1), rgba(33, 0, 0, 0.888));
   z-index: 1000;
   box-shadow: #000000;
 }
@@ -101,9 +99,66 @@ input {
   }
 }
 
-.Fontnativo {
-  font-family: "Rubik Mono One", monospace;
-  font-weight: 400;
-  font-style: normal;
-  top: 0;
+/* HOVERS NATIVOS*/
+.hovernat {
+  box-sizing: border-box;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  transition: all 0.5s;
+  user-select: none;
+}
+
+.hovernat:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.hovernat:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+/* CSS LOGOUT*/
+.contenedorLogout {
+  box-shadow: 8px 8px 16px #000000, -8px -8px 16px #000000;
+  background-color: rgba(48, 48, 48, 1);
+  z-index: 1000;
+  box-shadow: #000000;
+}
+
+.buttonSi {
+  background-color: #00ad00;
+}
+
+.buttonNo {
+  background-color: #d90404;
+}
+
+/* BOTONES APR */
+
+.AddButtonApr {
+  border-radius: 98px;
+  z-index: 1000;
+  box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
+
+  background-image: linear-gradient(
+    rgba(23, 176, 43, 1),
+    rgba(0, 21, 33, 0.888)
+  );
+}
+
+.AddButtonApr img {
+  z-index: -1;
+}
+
+.BusqButtonApr {
+  box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
+  z-index: 1000;
+  background-image: linear-gradient(
+    rgba(69, 151, 190, 1),
+    rgba(15, 63, 95, 0.888)
+  );
+}
+
+.BusqButtonApr img {
+  z-index: -1;
 }
