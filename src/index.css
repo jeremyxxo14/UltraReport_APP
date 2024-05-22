@@ -56,8 +56,8 @@ input {
 
 .AddButtonSup {
   border-radius: 98px;
-  background: #e0e0e0;
-  box-shadow: 33px 33px 66px #9f9f9f, -33px -33px 66px #ffffff;
+  background: #17b02b;
+  box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
 
   background-image: linear-gradient(
     rgba(23, 176, 43, 1),
@@ -69,6 +69,9 @@ input {
 }
 
 .RepButtonSup {
+  border-radius: 98px;
+  background: #17b02b;
+  box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
   z-index: 1000;
   background-image: linear-gradient(
     rgba(69, 151, 190, 1),
@@ -80,12 +83,16 @@ input {
 }
 
 .BusqReportSup {
-  background-image: linear-gradient(
-    rgba(196, 32, 32, 0.757),
-    rgba(33, 0, 0, 0.888)
-  );
+  border-radius: 98px;
+  background: #17b02b;
+  box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;
+  background-image: linear-gradient(rgb(255, 0, 0), rgba(33, 0, 0, 0.888));
   z-index: 1000;
   box-shadow: #000000;
+}
+
+.BusqReportSup img {
+  z-index: -1;
 }
 
 .logoUltraReport {
@@ -95,10 +102,8 @@ input {
 }
 
 .Fontnativo {
-  font-family: "Solway", serif;
-  font-size: xx-large;
-  font-weight: 700;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
   font-style: normal;
-  text-shadow: 0 0 0.1em #000000, 0 0 0.1em #000000, 0 0 0.1em #000000;
-  color: azure;
+  top: 0;
 }
