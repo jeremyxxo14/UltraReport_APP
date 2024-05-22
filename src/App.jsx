@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Auth from "./components/Auth";
 import Login from "./components/Login";
+import Card_report from "./components/Card_Report";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Nav />
         <Login />
         <Auth />
+        <Card_report />
         <Footer />
       </div>
     </>
