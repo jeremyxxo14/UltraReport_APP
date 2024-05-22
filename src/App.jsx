@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Auth from "./components/Auth";
 import Login from "./components/Login";
+import Logout from "./components/Logout";
 
 function App() {
   return (
@@ -13,10 +14,13 @@ function App() {
           src="logoUltraReport.png"
           alt=""
         />
+
+        <Auth />
         <Header />
         <Nav />
         <Login />
-        <Auth />
+
+        <Logout />
         <Footer />
       </div>
     </>
