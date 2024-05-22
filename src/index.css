@@ -61,6 +61,10 @@ input {
 }
 
 .AddButtonSup {
+  border-radius: 98px;
+  background: #e0e0e0;
+  box-shadow: 33px 33px 66px #9f9f9f, -33px -33px 66px #ffffff;
+
   background-image: linear-gradient(
     rgba(23, 176, 43, 1),
     rgba(0, 21, 33, 0.888)
