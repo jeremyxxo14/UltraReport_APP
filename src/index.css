@@ -33,12 +33,6 @@
   background-size: unset;
 }
 
-.Logo-Fon {
-  background-image: url(logoUltraReport.png);
-  background-size: cover;
-  background-repeat: round;
-}
-
 input {
   font-family: "Solway", serif;
   font-weight: 700;
@@ -94,8 +88,10 @@ input {
   box-shadow: #000000;
 }
 
-.BusqReportSup img {
-  z-index: -1;
+.logoUltraReport {
+  .BusqReportSup img {
+    z-index: -1;
+  }
 }
 
 .Fontnativo {

@@ -8,13 +8,15 @@ function App() {
   return (
     <>
       <div className="Contenedor-APP ">
+        <img
+          className="logoUltraReport absolute flex items-center "
+          src="logoUltraReport.png"
+          alt=""
+        />
         <Header />
+        <Nav />
+        <Login />
         <Auth />
-
-        <div className="Logo-Fon ">
-          <Nav />
-          <Login />
-        </div>
         <Footer />
       </div>
     </>
