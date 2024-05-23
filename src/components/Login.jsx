@@ -1,4 +1,4 @@
-function Login() {
+export default function Login() {
   return (
     <>
       <div className="Contenedor-Login flex items-center justify-center flex-col m-10">
@@ -36,5 +36,3 @@ function Login() {
     </>
   );
 }
-
-export default Login;
