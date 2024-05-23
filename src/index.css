@@ -165,3 +165,7 @@ input {
 .hovernat:active {
   transform: scale(0.95) rotateZ(1.7deg);
 }
+
+.InputDesvi::placeholder {
+  color: black;
+}
