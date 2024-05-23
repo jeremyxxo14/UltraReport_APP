@@ -165,3 +165,16 @@ input {
 .hovernat:active {
   transform: scale(0.95) rotateZ(1.7deg);
 }
+
+.InputDesvi {
+  resize: both;
+  color: #000000;
+  font-size: x-small;
+}
+
+.EnviarButton-Apr {
+  background-image: linear-gradient(
+    rgba(110, 10, 10, 0.757),
+    rgba(33, 0, 0, 0.888)
+  );
+}

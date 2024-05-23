@@ -5,6 +5,7 @@ import Auth from "./components/Auth";
 import Card_report from "./components/Card_Report";
 import Logout from "./components/Logout";
 import Form_O from "./components/Form_O";
+import FormApr from "./components/FormApr";
 
 function App() {
   return (
@@ -12,10 +13,11 @@ function App() {
       <div className="Contenedor-APP ">
         <Header />
         <Auth />
+        <Login />
         <Nav />
-        <Auth />
         <Card_report />
         <Form_O />
+        <FormApr />
         <Logout />
         <Footer />
       </div>

@@ -40,27 +40,6 @@ function Nav() {
           INFORMES
         </button>
       </div>
-
-      <div className="ContFormApr flex flex-col items-center justify-center   ">
-        <div className="InputContrato flex flex-col   mt-2 my-6 w-72 h-10 ">
-          <select className="  outline-none rounded-lg bg-gray-400 h-full p-3 ">
-            <option>CALETONES</option>
-            <option>COLON</option>
-            <option>MR</option>
-          </select>
-        </div>
-        <a className="CharlaButton flex flex-row justify-between items-center bg-gray-400  rounded-lg w-72 h-10 px-3 text-left">
-          CHARLA SEGURIDAD
-          <img src="camara.svg" className=" w-6 h-7"></img>
-        </a>
-
-        <div>
-          <a className="InputCamara-Charla flex flex-row justify-between items-center bg-gray-400 rounded-lg my-3 w-72 h-10 px-3 ">
-            VACIO
-            <img src="archivo-vacio.svg" className=" w-6 h-7"></img>
-          </a>
-        </div>
-      </div>
     </div>
   );
 }
