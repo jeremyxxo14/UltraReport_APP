@@ -1,4 +1,4 @@
-function Card_report() {
+export default function Card_report() {
   return (
     <div className="contenedor-Card flex p-2  justify-center bg-slate-600 rounded-3xl min-w-full">
       <div className="Cont-Card flex  justify-center flex-col">
@@ -26,5 +26,3 @@ function Card_report() {
     </div>
   );
 }
-
-export default Card_report;
