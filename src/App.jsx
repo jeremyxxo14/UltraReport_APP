@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 import Auth from "./components/Auth";
 import Card_report from "./components/Card_Report";
 import Logout from "./components/Logout";
-import Form_O from "./components/Form_O";
+import FormO from "./components/FormO";
 import FormApr from "./components/FormApr";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Login />
         <Nav />
         <Card_report />
-        <Form_O />
+        <FormO />
         <FormApr />
         <Logout />
         <Footer />
