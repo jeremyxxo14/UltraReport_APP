@@ -53,7 +53,13 @@ function Nav() {
           CHARLA SEGURIDAD
           <img src="camara.svg" className=" w-6 h-7"></img>
         </a>
-        <input></input>
+
+        <div>
+          <a className="InputCamara-Charla flex flex-row justify-between items-center bg-gray-400 rounded-lg my-3 w-72 h-10 px-3 ">
+            VACIO
+            <img src="archivo-vacio.svg" className=" w-6 h-7"></img>
+          </a>
+        </div>
       </div>
     </div>
   );
