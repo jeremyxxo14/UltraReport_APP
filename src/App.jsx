@@ -6,6 +6,7 @@ import Login from "./components/Login";
 import Card_report from "./components/Card_Report";
 import Logout from "./components/Logout";
 import FormApr from "./components/FormApr";
+import PassAlert from "./components/PassAlert";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Nav />
         <Card_report />
         <FormApr />
+        <PassAlert />
         <Logout />
         <Footer />
       </div>
