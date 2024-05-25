@@ -16,8 +16,8 @@ function App() {
         <Auth />
         <Login />
         <Nav />
-        <Card_report />
         <FormO />
+        <Card_report />
         <FormApr />
         <Logout />
         <Footer />
