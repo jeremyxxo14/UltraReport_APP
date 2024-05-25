@@ -6,6 +6,7 @@ import Card_report from "./components/Card_Report";
 import Logout from "./components/Logout";
 import FormO from "./components/FormO";
 import FormApr from "./components/FormApr";
+import PassAlert from "./components/PassAlert";
 import Login from "./components/Login";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <FormO />
         <Card_report />
         <FormApr />
+        <PassAlert />
         <Logout />
         <Footer />
       </div>
