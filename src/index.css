@@ -178,3 +178,7 @@ input {
     rgba(33, 0, 0, 0.888)
   );
 }
+
+.BoxAlertPass p1 {
+  color: #bd1d1e;
+}
