@@ -18,8 +18,8 @@ function Nav() {
           REPORTES
         </button>
 
-        <button className="BusqReportSup p-3 border-2 border-solid border-stone-950 w-80 my-5  h-36 rounded-full  hovernat flex items-center justify-center ">
-          <img src="lupa.svg" className="absolute w-32 h-36"></img>
+        <button className="BusqReportSup p   -3 border-2 border-solid border-stone-950 w-80 my-5  h-36 rounded-full  hovernat flex items-center justify-center ">
+          <img src="lupa.svg" className="a   bsolute w-32 h-36"></img>
           BUSQUEDA AVANZADA
         </button>
       </div>

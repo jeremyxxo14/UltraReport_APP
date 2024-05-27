@@ -178,3 +178,57 @@ input {
     rgba(33, 0, 0, 0.888)
   );
 }
+
+.BoxAlertPass p1 {
+  color: red;
+}
+
+/* ERRORES Y ALERTAS*/
+.BoxAlertPass {
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.BoxRutAlert {
+  background-color: rgba(48, 48, 48, 1);
+}
+
+p1 {
+  color: red;
+}
+
+.BoxNetAlert {
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.BoxIncompleteAlert {
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.BoxDuplicatedAlert {
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.BoxFileAlert {
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.BoxUpdateAlert {
+  background-color: rgba(48, 48, 48, 1);
+}
+.BoxUpdateAlert p1 {
+  color: #00ad00;
+}
+
+.ejemplo1 {
+  border-radius: 20%;
+  border-color: azure;
+}
+
+.ejemplo2 {
+  border-radius: 20%;
+  border-color: azure;
+}
+.ejemplo3 {
+  border-radius: 20%;
+  border-color: azure;
+}
