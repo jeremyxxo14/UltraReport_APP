@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 export default function Login() {
   return (
     <>
-      <div className="Contenedor-Login flex items-center justify-center flex-col m-10">
+      <div className="Contenedor-Login flex items-center justify-center flex-col m-5 mx-5 mb-auto ">
         <div className="img-Login">
           <img className="w-16" src="authorization.png" alt="" />
         </div>
@@ -28,9 +30,12 @@ export default function Login() {
           />
         </div>
         <div className="m-10">
-          <a className=" button-ini p-3  rounded-full border-2 border-solid border-stone-950 text-zinc-50 borde transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1  hover:bg-red-700 ">
+          <Link
+            to={"/HomeSup"}
+            className=" button-ini p-3  rounded-full border-2 border-solid border-stone-950 text-zinc-50 borde transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1  hover:bg-red-700 "
+          >
             INGRESAR
-          </a>
+          </Link>
         </div>
       </div>
     </>
