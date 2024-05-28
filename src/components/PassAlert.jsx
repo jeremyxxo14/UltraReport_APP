@@ -6,6 +6,7 @@ export default function PassAlert() {
           <p>
             LLENAR <p1> CONTRASEÑA</p1>
           </p>
+
           <p>CORRECTAMENTE </p>
           <img
             src="exclamacion1.png"
