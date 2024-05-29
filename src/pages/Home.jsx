@@ -23,7 +23,7 @@ export default function Home() {
             to="/InicioSesion"
           >
             <img src="reportes.svg" className="absolute w-32 h-36"></img>
-            AGREGAR REPORTE
+            REPORTES
           </Link>
           <Link
             className=" BusqReportSup RepButtonSup Fontnativo p-3 border-2 border-solid border-stone-950 w-80 my-5 h-36 rounded-full
