@@ -1,4 +1,4 @@
-function Auth() {
+function Perfil() {
   return (
     <>
       <div className="flex items-center justify-center flex-col ">
@@ -13,4 +13,4 @@ function Auth() {
   );
 }
 
-export default Auth;
+export default Perfil;
