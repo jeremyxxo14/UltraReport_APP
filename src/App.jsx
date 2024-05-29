@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import InicioSesion from "./pages/InicioSesion";
 import Home from "./pages/Home";
 import HomeSup from "./pages/HomeSup";
+import HomeApr from "./pages/HomeApr";
 
 function App() {
   return (
