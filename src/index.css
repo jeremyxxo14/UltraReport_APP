@@ -237,3 +237,13 @@ p1 {
   border-radius: 20%;
   border-color: azure;
 }
+
+.mensaje-error {
+  color: #edebeb;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #b30000;
+  font-family: "Arvo", serif;
+  font-weight: 900;
+  font-style: normal;
+}

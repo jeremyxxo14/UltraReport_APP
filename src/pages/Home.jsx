@@ -11,27 +11,27 @@ export default function Home() {
         <div className="Contenedor-botonessup flex flex-col items-center my-5">
           <Link
             className="AddButtonSup my-5 p-3 border-2 border-solid border-stone-950 w-80 h-36 rounded-full 
-        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
+        transition-transform text-2xl duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
             to="/InicioSesion"
           >
             <img src="addreportlogo.svg" className="absolute w-32 h-36"></img>
-            AGREGAR REPORTE
+            Supervisor
           </Link>
           <Link
             className="RepButtonSup Fontnativo p-3 border-2 border-solid border-stone-950 w-80 my-5 h-36 rounded-full
-        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
+        transition-transform text-2xl duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
             to="/InicioSesion"
           >
             <img src="reportes.svg" className="absolute w-32 h-36"></img>
-            AGREGAR REPORTE
+            APR
           </Link>
           <Link
             className=" BusqReportSup RepButtonSup Fontnativo p-3 border-2 border-solid border-stone-950 w-80 my-5 h-36 rounded-full
-        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
+        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center text-center justify-center text-2xl"
             to="/InicioSesion"
           >
-            <img src="lupa.svg" className="absolute   bsolute w-32 h-36"></img>
-            BUSQUEDA AVANZADA
+            <img src="lupa.svg" className="absolute   bsolute w-32 h-36 "></img>
+            Observador de conducta
           </Link>
         </div>
         <Footer />
