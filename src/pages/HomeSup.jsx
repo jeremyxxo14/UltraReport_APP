@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Perfil from "../components/Perfil";
+import Back from "../components/Back";
 
 const HomeSup = () => {
   return (
     <div className="Contenedor-APP">
-      <Header />
+      <Back />
       <Perfil />
       <div className="Contenedor-botonessup flex flex-col items-center my-5">
         <Link

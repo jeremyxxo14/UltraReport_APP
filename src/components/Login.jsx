@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import RutAlert from "../components/RutAlert";
-import PassAlert from "../components/PassAlert";
 
 export default function Login() {
   const [rut, setRut] = useState("");
