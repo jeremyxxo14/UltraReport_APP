@@ -58,24 +58,20 @@ export default function InicioSesion() {
       <div className="img-report absolute ml-5 flex justify-center items-center ">
         <img className="" src="/logoUltraReport.png" alt="" />
       </div>
-      <div className="Contenedor-APP grid grid-cols-3 grid-rows-7 gap-2 h-[100vh] ">
+      <div className="Contenedor-APP grid grid-cols-3 grid-rows-5 gap-2 h-[100vh] ">
         <div className=" col-span-3 flex justify-center items-center bg-[rgba(98,98,98,0.5)]">
           <span className="Ultrareport-string1">ULTRA</span>
           <span className="Ultrareport-string1">-</span>
           <span className="Ultrareport-string2 "> REPORT</span>
         </div>
-        <div className="col-span-1 m-3">
-          <Back />
-        </div>
-
         <div className="col-span-3 justify-self-center place-content-center z-40">
           <span className="text-2xl">
             Inicio <p className="flex justify-center">de</p> sesion
           </span>
         </div>
 
-        <div className="col-end-3 flex flex-col gap-3 justify-self-center z-50 ">
-          <div className="Contenedor-Login flex items-center justify-center flex-col m-5 mx-5 mb-auto">
+        <div className="col-end-3 flex flex-col gap-3 justify-self-center z-50 place-content-start">
+          <div className="Contenedor-Login flex items-center  justify-center flex-col m-5 mx-5 mb-auto">
             <Formik
               initialValues={{ name: "", password: "" }}
               onSubmit={publicar}
@@ -129,8 +125,6 @@ export default function InicioSesion() {
             </Formik>
           </div>
         </div>
-
-        <div className="col-span-3 justify-self-center place-content-center"></div>
 
         <div className="col-span-3 justify-self-center place-content-center"></div>
         <div className="col-span-3 flex justify-center items-center bg-[rgba(98,98,98,0.5)] ">
