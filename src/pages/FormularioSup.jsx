@@ -1,23 +1,23 @@
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import Perfil from "../components/Perfil";
+
 import React from "react";
-import ComponenteCamara from "../components/CompCamara";
 import Back from "../components/Back";
 
 export default function FormularioApr() {
   return (
     <>
-      <div className="Contenedor-APP">
+      <div className="Contenedor-APP ">
+        <Header />
         <Back />
-        <Perfil />
         <div className="Contenedor-FormularioApr flex flex-col items-center justify-center   ">
+          <div className="col-span-3 mb-5">
+            <span className="text-2xl">Generar Reporte</span>
+          </div>
           <div className="Contrato-select flex flex-col   mt-2 my-6 w-72 h-10 ">
             <select className="  outline-none rounded-lg bg-gray-400 h-full p-2 ">
-              <option disabled selected>
-                SUCURUSAL/CONTRATO
-              </option>
+              <option className="bg-slate-600">SUCURUSAL/CONTRATO</option>
               <option>CALETONES</option>
               <option>COLON</option>
               <option>MR</option>
@@ -26,7 +26,7 @@ export default function FormularioApr() {
 
           <Link
             className="CharlaButton flex flex-row justify-between items-center bg-gray-400  rounded-lg w-72 h-10 px-3 text-left"
-            to="/"
+            to="/Camara"
           >
             CHARLA SEGURIDAD
             <img src="camara.svg" className=" w-6 h-7"></img>

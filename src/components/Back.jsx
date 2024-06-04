@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Back() {
   return (
     <>
-      <div className="Contendor-Header flex  p-5 my-5 items-center justify-between">
+      <div className="Contendor-Header">
         <Link
           to={"/"}
           className="Back-Button  p-3 rounded-2xl border-2 border-solid border-neutral-950 bg-zinc-300 inline-block  "

@@ -1,42 +1,19 @@
 import React from "react";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-import Perfil from "../components/Perfil";
 import Back from "../components/Back";
+import Header from "../components/Header";
 
 const HomeSup = () => {
   return (
     <div className="Contenedor-APP">
-      <Back />
-      <Perfil />
-      <div className="Contenedor-botonessup flex flex-col items-center my-5">
-        <Link
-          className="AddButtonSup my-5 p-3 border-2 border-solid border-stone-950 w-80 h-36 rounded-full 
-        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
-          to="/FormularioSup"
-        >
-          <img className="absolute w-32 h-36" src="AgregarReporte.svg" alt="" />
-          AGREGAR REPORTE
-        </Link>
-        <Link
-          className="RepButtonSup Fontnativo p-3 border-2 border-solid border-stone-950 w-80 my-5 h-36 rounded-full
-        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
-          to="/InicioSesion"
-        >
-          <img src="DocumentLupa.svg" className="absolute w-32 h-36"></img>
-          Ver Reportes
-        </Link>
-        <Link
-          className=" BusqReportSup RepButtonSup Fontnativo p-3 border-2 border-solid border-stone-950 w-80 my-5 h-36 rounded-full
-        transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center"
-          to="/InicioSesion"
-        >
-          <img
-            src="ReporteLupa.svg"
-            className="absolute   bsolute w-32 h-36"
-          ></img>
-          BUSQUEDA AVANZADA
-        </Link>
+      <Header />
+      <div className="grid grid-cols-3 grid-rows-4 gap-2 h-[100vh]">
+        <div className=" col-span-1 m-3 ">
+          <Back />
+        </div>
+        <div className="col-end-3 flex flex-col gap-3 justify-self-center "></div>
+        <div className="col-end-3 flex flex-col gap-3 justify-self-center "></div>
+        <div className="col-end-3 flex flex-col gap-3 justify-self-center "></div>
       </div>
       <Footer />
     </div>

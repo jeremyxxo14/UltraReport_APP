@@ -1,7 +1,11 @@
+import Perfil from "./Perfil";
+
 function Header() {
   return (
     <>
-      <div className="Contendor-Header flex bg-[#535353] bg-opacity-70  p-10  mb-20 items-center justify-between"></div>
+      <div className="Contendor-Header bg-[rgba(98,98,98,0.5)]  ">
+        <Perfil />
+      </div>
     </>
   );
 }
