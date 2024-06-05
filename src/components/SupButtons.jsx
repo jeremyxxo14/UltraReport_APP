@@ -7,12 +7,12 @@ import Typography from "@mui/material/Typography";
 export default function ButtonBaseDemo() {
   const images = [
     {
-      url: "agresup.jpg",
+      url: "logoadd.jpg",
       title: "Agregar Informe",
       width: "25%",
     },
     {
-      url: "informes1.jpg",
+      url: "docs.jpg",
       title: "Informes Vigentes",
       width: "25%",
     },
@@ -23,7 +23,7 @@ export default function ButtonBaseDemo() {
     },
 
     {
-      url: "",
+      url: "obs.jpg",
       title: "Observar Conducta",
       width: "25%",
     },

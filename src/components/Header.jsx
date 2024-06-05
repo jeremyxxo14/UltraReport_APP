@@ -18,7 +18,7 @@ function Header() {
   return (
     <>
       <div
-        className={`Contendor-Header sticky ${
+        className={`Contendor-Header z-40 sticky ${
           isScrolled ? "bg-[rgba(98,98,98)]" : "bg-[rgba(98,98,98,0.5)]"
         }`}
       >

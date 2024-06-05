@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Back from "../components/Back";
 import Header from "../components/Header";
 import ButtonBaseDemo from "../components/SupButtons";
+import { Typography } from "@mui/material";
 
 const HomeSup = () => {
   return (
@@ -16,7 +17,9 @@ const HomeSup = () => {
           <Back />
         </div>
         <div className="col-span-1 justify-self-center place-content-center">
-          <span className="text-2xl">Reportes</span>
+          <Typography variant="h3" gutterBottom>
+            INICIO
+          </Typography>
         </div>
         <div className=" col-span-3 row-span-3 z-50 mb-10  ">
           <ButtonBaseDemo />
