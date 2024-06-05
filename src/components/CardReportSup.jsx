@@ -31,7 +31,7 @@ const CardReportSup = () => {
         <div className="flex flex-row justify-between w-full">asdada</div>
       </div>
       <div className="flex flex-row justify-between w-full">
-        <h3 className="text-xl font-bold">Great Experience!</h3>
+        <h3 className="text-xl font-bold">Great Experiencsdfsdfe!</h3>
 
         <div className="text-xs">
           <div className="flex flex-row">
