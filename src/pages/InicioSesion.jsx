@@ -15,7 +15,7 @@ export default function InicioSesion() {
     if (mensajeError) {
       timer = setTimeout(() => {
         setMensajeError("");
-      }, 2000); // Ocultar el mensaje después de 5 segundos
+      }, 1000); // Ocultar el mensaje después de 5 segundos
     }
     return () => clearTimeout(timer);
   }, [mensajeError]);
@@ -56,10 +56,7 @@ export default function InicioSesion() {
       <div className="img-report absolute ml-5 flex justify-center items-center ">
         <img className="" src="/logoUltraReport.png" alt="" />
       </div>
-      <div
-        className="Contenedor-APP grid grid-cols-3 grid-rows-5 gap-2 h-[100vh] "
-        style={{ backgroundImage: "url('obs1.jpg')" }}
-      >
+      <div className="Contenedor-APP grid grid-cols-3 grid-rows-5 gap-2 h-[100vh] ">
         <div className=" col-span-3 flex justify-center items-center bg-[rgba(98,98,98,0.5)]">
           <span className="Ultrareport-string1">ULTRA</span>
           <span className="Ultrareport-string1">-</span>

@@ -4,14 +4,19 @@ function Perfil() {
 
   return (
     <>
-      <div className="flex items-center justify-center ">
-        <div className="p-2 m-1 flex flex-col justify-center items-center">
-          <div className="col-span-1 justify-self-center place-content-center">
-            <span className="text-2xl">Supervisor</span>
+      <div className="">
+        <div className="p-1 flex flex-row justify-between ">
+          <div className="img-report w-32 h-36 ">
+            <img className="relative" src="/logoUltraReport.png" alt="" />
           </div>
-          <div className="p-1 m-3">
-            <span className="py-1  text-zinc-50">{nombre}</span>
-            <span className=" px- text-zinc-50">{apellido}</span>
+          <div className=" flex flex-col justify-center m-10">
+            <div className="">
+              <span className="text-2xl">Supervisor</span>
+            </div>
+            <div className="p-1 ">
+              <span className=" text-zinc-50">{nombre}</span>
+              <span className=" text-zinc-50">{apellido}</span>
+            </div>
           </div>
         </div>
       </div>

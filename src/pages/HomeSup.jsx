@@ -8,13 +8,7 @@ import { Typography } from "@mui/material";
 const HomeSup = () => {
   return (
     <>
-      <div className="img-report absolute ml-5 flex justify-center items-center h-auto">
-        <img className="" src="/logoUltraReport.png" alt="" />
-      </div>
-      <div
-        className="Contenedor-APP overflow-hidden"
-        style={{ backgroundImage: "url('obs1.jpg')" }}
-      >
+      <div className="Contenedor-APP overflow-hidden">
         <div className="grid grid-cols-3 grid-rows-6  gap-2 max-h-screen ">
           <div className=" col-span-3 justify-self-center place-content-start ">
             <Header />
