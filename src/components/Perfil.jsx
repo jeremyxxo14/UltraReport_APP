@@ -1,5 +1,5 @@
 function Perfil() {
-  const nombre = "Juan Pablo";
+  const nombre = "Juan";
   const apellido = " Rodrigues";
 
   return (
