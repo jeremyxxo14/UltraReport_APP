@@ -3,29 +3,36 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
+import { useNavigate } from "react-router-dom";
 
 export default function ButtonBaseDemo() {
+  const navigate = useNavigate();
+
   const images = [
     {
       url: "logoadd.jpg",
       title: "Agregar Informe",
       width: "25%",
+      route: "/FormularioSup",
     },
     {
       url: "docs.jpg",
       title: "Informes Vigentes",
       width: "25%",
+      route: "/FormularioSup",
     },
     {
       url: "lupita.jpg",
       title: "Busqueda Informes",
       width: "25%",
+      route: "/FormularioSup",
     },
 
     {
       url: "obs.jpg",
       title: "Observar Conducta",
       width: "25%",
+      route: "/FormularioSup",
     },
   ];
 
@@ -116,6 +123,7 @@ export default function ButtonBaseDemo() {
             width: image.width,
             padding: 1,
           }}
+          onClick={() => navigate(image.route)}
         >
           <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
           <ImageBackdrop className="MuiImageBackdrop-root" />
