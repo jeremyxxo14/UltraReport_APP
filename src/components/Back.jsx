@@ -12,7 +12,7 @@ export default function Back() {
       <div className="Contendor-Header z-50">
         <button
           onClick={handleGoBack}
-          className="Back-Button  p-3 rounded-2xl border-2 border-solid border-neutral-950 bg-zinc-300 inline-flex  "
+          className="Back-Button  p-3 rounded-2xl border-2 border-solid border-neutral-950 bg-opacity-25 bg-zinc-300 inline-flex  "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
