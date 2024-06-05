@@ -33,7 +33,7 @@ function HomeSupButtons() {
         transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1 flex items-center justify-center "
         >
           <img src="addreportlogo.svg" className="absolute w-32 h-36"></img>
-          AGREGAR INFORME
+          AGREGARa INFORME
         </Link>
         <Link
           className="BusqButtonApr p-3 border-2 border-solid border-stone-950 w-80  my-10 h-36 rounded-full 
