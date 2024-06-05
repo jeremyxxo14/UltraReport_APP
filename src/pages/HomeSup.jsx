@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Back from "../components/Back";
 import Header from "../components/Header";
 import ButtonBaseDemo from "../components/SupButtons";
-import { Typography } from "@mui/material";
 
 const HomeSup = () => {
   return (
