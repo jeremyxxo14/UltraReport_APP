@@ -6,7 +6,7 @@ export default function Back() {
       <div className="Contendor-Header">
         <Link
           to={"/"}
-          className="Back-Button  p-3 rounded-2xl border-2 border-solid border-neutral-950 bg-zinc-300 inline-block  "
+          className="Back-Button  p-3 rounded-2xl border-2 border-solid border-neutral-950 bg-zinc-300 inline-flex  "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
