@@ -255,3 +255,7 @@ p1 {
   font-weight: 900;
   font-style: normal;
 }
+
+.ImageButtons {
+  mask-image: linear-gradient(black 80%, transparent);
+}
