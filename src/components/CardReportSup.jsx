@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { CardReport } from "../props/CardReport";
 
 const CardReportSup = () => {
   const navigate = useNavigate();
@@ -29,11 +28,7 @@ const CardReportSup = () => {
   return (
     <div className="flex flex-col gap-2 dark:text-white max-w-md w-full bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150">
       <div className="flex flex-row justify-between w-full">
-        <div className="flex flex-row justify-between w-full">
-          {card.map((card) => {
-            return <CardReport idprofile={CardReport.idprofil} />;
-          })}
-        </div>
+        <div className="flex flex-row justify-between w-full">asdada</div>
       </div>
       <div className="flex flex-row justify-between w-full">
         <h3 className="text-xl font-bold">Great Experience!</h3>
