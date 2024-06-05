@@ -17,7 +17,7 @@ export default function ButtonBaseDemo() {
       width: "25%",
     },
     {
-      url: "busqueda1.jpg",
+      url: "lupita.jpg",
       title: "Busqueda Informes",
       width: "25%",
     },
