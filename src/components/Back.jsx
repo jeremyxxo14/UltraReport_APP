@@ -9,7 +9,7 @@ export default function Back() {
 
   return (
     <>
-      <div className="Contendor-Header">
+      <div className="Contendor-Header z-50">
         <button
           onClick={handleGoBack}
           className="Back-Button  p-3 rounded-2xl border-2 border-solid border-neutral-950 bg-zinc-300 inline-flex  "

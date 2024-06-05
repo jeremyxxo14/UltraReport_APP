@@ -7,12 +7,12 @@ import { Typography } from "@mui/material";
 
 const HomeSup = () => {
   return (
-    <div className="Contenedor-APP">
+    <div className="Contenedor-APP overflow-hidden">
       <div className="img-report absolute ml-5 flex justify-center items-center ">
         <img className="" src="/logoUltraReport.png" alt="" />
       </div>
       <Header />
-      <div className="grid grid-cols-3 grid-rows-4 m-1 gap-2 h-[90vh] ">
+      <div className="grid grid-cols-3 grid-rows-3 m-1 gap-2 h-lvh ">
         <div className=" col-span-1 m-2 ">
           <Back />
         </div>
