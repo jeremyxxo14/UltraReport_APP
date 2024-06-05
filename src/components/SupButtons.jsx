@@ -19,7 +19,7 @@ export default function ButtonBaseDemo() {
       url: "docs.jpg",
       title: "Informes Vigentes",
       width: "25%",
-      route: "/FormularioSup",
+      route: "/ReportesSup",
     },
     {
       url: "lupita.jpg",
