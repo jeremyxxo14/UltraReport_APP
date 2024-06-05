@@ -1,11 +1,17 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Back() {
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
+
   return (
     <>
       <div className="Contendor-Header">
-        <Link
-          to={"/"}
+        <button
+          onClick={handleGoBack}
           className="Back-Button  p-3 rounded-2xl border-2 border-solid border-neutral-950 bg-zinc-300 inline-flex  "
         >
           <svg
@@ -22,7 +28,7 @@ export default function Back() {
               d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
             />
           </svg>
-        </Link>
+        </button>
       </div>
     </>
   );

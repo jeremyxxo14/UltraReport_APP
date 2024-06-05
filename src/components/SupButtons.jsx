@@ -56,6 +56,8 @@ export default function ButtonBaseDemo() {
     left: 0,
     right: 0,
     top: 0,
+    margin: 3,
+    borderRadius: "10px",
     bottom: 0,
     backgroundSize: "cover",
     backgroundPosition: "center 40%",
@@ -67,6 +69,7 @@ export default function ButtonBaseDemo() {
     right: 0,
     top: 0,
     bottom: 0,
+
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -79,6 +82,7 @@ export default function ButtonBaseDemo() {
     right: 0,
     top: 0,
     bottom: 0,
+
     backgroundColor: theme.palette.common.black,
     opacity: 0.4,
     transition: theme.transitions.create("opacity"),
@@ -87,6 +91,7 @@ export default function ButtonBaseDemo() {
   const ImageMarked = styled("span")(({ theme }) => ({
     height: 3,
     width: 18,
+
     backgroundColor: theme.palette.common.white,
     position: "absolute",
     bottom: -2,
@@ -100,6 +105,7 @@ export default function ButtonBaseDemo() {
         display: "inline-block",
         minWidth: 100,
         width: "100%",
+        borderRadius: "10px",
       }}
     >
       {images.map((image) => (

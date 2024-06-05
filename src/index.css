@@ -63,6 +63,10 @@ input {
 
 /*BOTONES SUPERVISOR*/
 
+.Button_Sup {
+  margin: 10px !important;
+}
+
 .AddButtonSup {
   border-radius: 98px;
   box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #1a1a1a;

@@ -7,15 +7,18 @@ import ButtonBaseDemo from "../components/SupButtons";
 const HomeSup = () => {
   return (
     <div className="Contenedor-APP">
+      <div className="img-report absolute ml-5 flex justify-center items-center ">
+        <img className="" src="/logoUltraReport.png" alt="" />
+      </div>
       <Header />
-      <div className="grid grid-cols-3 grid-rows-4 m-1 gap-2 h-[72vh] ">
+      <div className="grid grid-cols-3 grid-rows-4 m-1 gap-2 h-[90vh] ">
         <div className=" col-span-1 m-2 ">
           <Back />
         </div>
         <div className="col-span-1 justify-self-center place-content-center">
-          <span className="text-2xl">Supervisor</span>
+          <span className="text-2xl">Reportes</span>
         </div>
-        <div className=" col-span-3 row-span-3  ">
+        <div className=" col-span-3 row-span-3 z-50 mb-10  ">
           <ButtonBaseDemo />
         </div>
       </div>
