@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <>
-      <div className="Contendor-Header z-40 flex justify-center min-h-50 px-64 bg-[rgba(98,98,98,0.5)]">
+      <div className="Contendor-Header z-40 flex justify-center  px-64 bg-[rgba(98,98,98,0.5)]">
         <Perfil />
       </div>
     </>

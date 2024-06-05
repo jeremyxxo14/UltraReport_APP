@@ -64,10 +64,13 @@ export default function InicioSesion() {
           <span className="Ultrareport-string1">-</span>
           <span className="Ultrareport-string2 "> REPORT</span>
         </div>
+
         <div className="col-span-3 justify-self-center place-content-center z-40">
-          <span className="text-2xl">
-            Inicio <p className="flex justify-center">de</p> sesion
+          <span className="text-3xl flex justify-center items-start">
+            Bienvenido
           </span>
+          <br />
+          <span className="text-2xl">Inicio de sesion</span>
         </div>
 
         <div className="col-end-3 flex flex-col gap-3 justify-self-center z-50 place-content-start">
@@ -80,7 +83,7 @@ export default function InicioSesion() {
               <Form className="input flex flex-col w-fit " action="">
                 <div className="input flex flex-col w-fit static">
                   <label className="text-zinc-950  text-xs font-semibold relative top-2 ml-[7px] px-[3px] bg-[#D9D9D9] rounded-[5px] w-fit border-2 border-zinc-950">
-                    <div className="my-3 left-[0.1px]  absolute w-32 bg-[#D9D9D9] h-2"></div>
+                    <div className="my-[13px] left-[0.1px]  absolute w-32 bg-[#D9D9D9] h-2"></div>
                     Rut:
                   </label>
                   <input
@@ -94,7 +97,7 @@ export default function InicioSesion() {
                 </div>
                 <div className="input flex flex-col w-fit static ">
                   <label className="text-zinc-950  text-xs font-semibold  after:shadow-red-600 relative top-2 ml-[7px] px-[3px] bg-[#D9D9D9] rounded-[5px] w-fit border-2 border-zinc-950">
-                    <div className="my-3 left-[0.1px]  absolute w-32  bg-[#D9D9D9] h-2"></div>
+                    <div className="my-[13px] left-[0.1px]  absolute w-32  bg-[#D9D9D9] h-2"></div>
                     Contraseña:
                   </label>
                   <input
