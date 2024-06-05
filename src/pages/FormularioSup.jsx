@@ -10,19 +10,19 @@ const FormularioSup = () => {
     <>
       <div className="Contenedor-APP ">
         <div className="grid grid-cols-3 grid-rows-6  gap-2 max-h-full ">
-          <div className=" col-span-3  justify-self-center place-content-start ">
+          <div className=" col-span-3 row-span-full">
             <Header />
           </div>
-          <div className=" col-span-1 m-2 bg ">
+          <div className=" col-span-1 m-2 ">
             <Back />
           </div>
-          <div className="col-span-2 justify-self-star place-content-star">
-            <Typography className="z-40 items-center" variant="h4" gutterBottom>
-              LLenar Formulario
-            </Typography>
+          <div className="col-span-1 justify-self-center place-content-center my-10">
+            <span className="z-40 flex flex-col justify-center items-center text-4xl">
+              LLenar <span className="flex items-center">Formulario</span>
+            </span>
           </div>
-          <div className=" col-span-3 row-span-3 z-50 mb-10   ">
-            <div className="Contenedor-FormularioApr flex flex-col items-center justify-center   ">
+          <div className=" col-span-3 row-span-3 z-50   ">
+            <div className="Contenedor-FormularioApr flex flex-col gap-1 items-center justify-center   ">
               <div className="Contrato-select flex flex-col   mt-2 my-6 w-72 h-10 ">
                 <select className="  outline-none rounded-lg bg-gray-400 h-full p-2 ">
                   <option className="bg-slate-600">SUCURUSAL/CONTRATO</option>
