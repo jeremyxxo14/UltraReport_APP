@@ -8,18 +8,16 @@ import { Typography } from "@mui/material";
 const HomeSup = () => {
   return (
     <>
-      <div className="Contenedor-APP overflow-hidden">
-        <div className="grid grid-cols-3 grid-rows-6  gap-2 max-h-screen ">
+      <div className="Contenedor-APP ">
+        <div className="grid grid-cols-3 grid-rows-6   gap-2 max-h-screen ">
           <div className=" col-span-3 justify-self-center place-content-start ">
             <Header />
           </div>
-          <div className=" col-span-1 m-2 ">
+          <div className=" col-span-1 m-2 mt-5 ">
             <Back />
           </div>
           <div className="col-span-1 justify-self-center place-content-center">
-            <Typography className="z-30" variant="h3" gutterBottom>
-              INICIO
-            </Typography>
+            <span className="z-30 text-4xl">INICIO</span>
           </div>
           <div className=" col-span-3 row-span-2 z-50 mb-10   ">
             <ButtonBaseDemo />
