@@ -9,7 +9,7 @@ const ReportesSup = () => {
   return (
     <>
       <div className="Contenedor-APP overflow-hidden">
-        <div className="grid grid-cols-3 grid-rows-4  gap-2 max-h-screen ">
+        <div className="grid grid-cols-3 grid-rows-15  gap-2 max-h-screen ">
           <div className=" col-span-3 justify-self-center place-content-start ">
             <Header />
           </div>
@@ -18,11 +18,9 @@ const ReportesSup = () => {
           </div>
 
           <div className="col-span-1 justify-self-center place-content-center">
-            <Typography className="z-30" variant="h3" gutterBottom>
-              REPORTES
-            </Typography>
+            <span className="z-30 text-4xl">REPORTES</span>
           </div>
-          <div className="col-span-3 ">
+          <div className="col-span-3  ">
             <CardReportSup />
           </div>
 
