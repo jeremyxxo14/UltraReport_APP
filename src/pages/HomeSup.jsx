@@ -12,8 +12,8 @@ const HomeSup = () => {
         <img className="" src="/logoUltraReport.png" alt="" />
       </div>
       <div className="Contenedor-APP overflow-hidden">
-        <div className="grid grid-cols-3 grid-rows-5  gap-2 max-h-screen ">
-          <div className=" col-span-3 justify-self-center place-content-start h-auto w-auto ">
+        <div className="grid grid-cols-3 grid-rows-6  gap-2 max-h-screen ">
+          <div className=" col-span-3 justify-self-center place-content-start h-screen  ">
             <Header />
           </div>
           <div className=" col-span-1 m-2 ">
@@ -27,6 +27,7 @@ const HomeSup = () => {
           <div className=" col-span-3 row-span-2 z-50 mb-10   ">
             <ButtonBaseDemo />
           </div>
+          <div className=" col-span-3 row-span-2 z-50 mb-10   "></div>
           <div className=" col-span-3 z-50 place-content-end  ">
             <Footer />
           </div>
