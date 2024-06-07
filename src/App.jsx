@@ -7,6 +7,7 @@ import FormularioApr from "./pages/FormularioApr";
 import FormularioSup from "./pages/FormularioSup";
 import AdminGeneral from "./pages/AdminGeneral";
 import ReportesSup from "./pages/ReportesSup";
+import BuscarReportes from "./pages/BuscarReportes";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/FormularioSup" element={<FormularioSup />} />
         <Route path="/*" element={<InicioSesion />} />
         <Route path="/ReportesSup" element={<ReportesSup />} />
+        <Route path="/BuscarReportes" element={<BuscarReportes />} />
         {}
       </Routes>
     </>
