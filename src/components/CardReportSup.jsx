@@ -9,46 +9,75 @@ const CardReportSup = () => {
       idprofil: "Alejandro Vega",
       idreport: "0001",
       activitypercent: "30%",
+      timeDuration: "13:56",
+      desviacione:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, sed dapibuseros.",
+      Cargo: "Supervisor",
     },
     {
       id: "2",
       idprofil: "Jeremy",
       idreport: "0002",
-      activitypercent: "30%",
+      activitypercent: "50%",
+      timeDuration: "13:56",
+      desviacione:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, sed dapibuseros.",
+      Cargo: "Supervisor",
     },
     {
       id: "3",
       idprofil: "cristian",
       idreport: "0003",
-      activitypercent: "30%",
+      activitypercent: "80%",
+      timeDuration: "13:56",
+      desviacione:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, sed dapibuseros.",
+      Cargo: "Supervisor",
+    },
+    {
+      id: "4",
+      idprofil: "Felipe",
+      idreport: "0004",
+      activitypercent: "100%",
+      timeDuration: "13:56",
+      desviacione:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, sed dapibuseros.",
+      Cargo: "A.P.R",
+    },
+    {
+      id: "5",
+      idprofil: "Agustin",
+      idreport: "0005",
+      activitypercent: "100%",
+      timeDuration: "13:56",
+      desviacione:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, sed dapibuseros.",
+      Cargo: "Supervisor",
     },
   ]);
-
-  return (
+  //5zqf9vqv-5173.brs.devtunnels.ms/
+  https: return (
     <div>
       {card.map((card) => (
         <div
           key={card.id}
-          className="flex flex-col gap-2 dark:text-white max-w-md w-full bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150"
+          className="flex flex-col gap-2 dark:text-white max-w-md w-full bg-white dark:bg-neutral-900 p-5 rounded-md mt-5  shadow-md hover:scale-105 hover:duration-150 duration-150"
         >
           <div className="flex flex-row justify-between w-full">
             <div className="flex flex-row justify-between w-full">
-              <p className="text-xs">{card.idprofil}</p>
-              <p className="text-xs">{card.idreport}</p>
+              <p className="text-xm">{card.idprofil}</p>
+              <p className="text-2xl">{card.idreport}</p>
             </div>
           </div>
           <div className="flex flex-row justify-between w-full">
-            <h3 className="text-xl font-bold">Great Experience!</h3>
+            <span className="text-2xl font-bold">{card.timeDuration}</span>
 
-            <div className="text-xs">
-              <div className="flex flex-row"></div>
+            <div className="text-xl">
+              <div className="flex flex-row">{card.activitypercent}</div>
             </div>
           </div>
-          <div className="text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            lacinia odio vitae vestibulum. Donec in efficitur ipsum, sed dapibus
-            eros.
-          </div>
+          <div className="text-sm">{card.desviacione}</div>
+          <div className="text-sm flex justify-center">{card.Cargo}</div>
         </div>
       ))}
     </div>
