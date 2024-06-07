@@ -25,7 +25,7 @@ export default function ButtonBaseDemo() {
       url: "lupita.jpg",
       title: "Busqueda Informes",
       width: "25%",
-      route: "/FormularioSup",
+      route: "/BuscarReportes",
     },
 
     {

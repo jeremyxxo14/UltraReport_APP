@@ -1,15 +1,15 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Back from "../components/Back";
+import Buscar from "../components/Buscar";
 import Header from "../components/Header";
-import { Typography } from "@mui/material";
+import Back from "../components/Back";
+import Footer from "../components/Footer";
 import CardReportSup from "../components/CardReportSup";
 
-const ReportesSup = () => {
+const BuscarReportes = () => {
   return (
     <>
       <div className="Contenedor-APP overflow-hidden">
-        <div className="grid grid-cols-3 grid-rows-15  gap-2 max-h-screen ">
+        <div className="grid grid-cols-3 grid-rows-4  gap-2 max-h-screen ">
           <div className=" col-span-3 justify-self-center place-content-start ">
             <Header />
           </div>
@@ -18,9 +18,10 @@ const ReportesSup = () => {
           </div>
 
           <div className="col-span-1 justify-self-center place-content-center">
-            <span className="z-30 text-4xl">REPORTES</span>
+            <span className="z-30 text-4xl">Busqueda Informes</span>
           </div>
-          <div className="col-span-2  ">
+          <div className="col-span-3  justify-self-center place-content-center ">
+            <Buscar />
             <CardReportSup />
           </div>
 
@@ -33,4 +34,4 @@ const ReportesSup = () => {
   );
 };
 
-export default ReportesSup;
+export default BuscarReportes;
