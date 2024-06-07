@@ -9,24 +9,25 @@ const BuscarReportes = () => {
   return (
     <>
       <div className="Contenedor-APP ">
-        <div className="grid grid-cols-3 grid-rows-6  gap-2 max-h-screen ">
-          <div className=" col-span-3 justify-self-center place-content-start h-full ">
+        <div className="grid grid-cols-3 grid-rows-3  gap-2 min-h-screen ">
+          <div className=" col-span-3 justify-self-center place-content-start ">
             <Header />
           </div>
           <div className=" col-span-1 m-2 ">
             <Back />
           </div>
 
-          <div className="col-span-1 justify-self-center place-content-center">
-            <span className="z-30 text-4xl">Busqueda Informes</span>
+          <div className="col-span-1 justify-self-center place-content-end">
+            <span className="z-30 text-4xl">REPORTES</span>
           </div>
-          <div className="col-span-3  justify-self-center place-content-center ">
+          <div className="col-span-3 mx-2 place-content-center">
             <Buscar />
-            <div className="col-span-3 row-span-2 mb-3 px-1">
-              <CardReportSup />
-            </div>
           </div>
-          <div className=" col-span-3  z-50 place-content-end  ">
+          <div className="col-span-3  place-content-start justify-self-center  mb-3 px-1">
+            <CardReportSup />
+          </div>
+
+          <div className=" col-span-3 z-50 place-content-end ">
             <Footer />
           </div>
         </div>
