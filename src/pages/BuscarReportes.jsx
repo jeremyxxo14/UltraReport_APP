@@ -22,7 +22,7 @@ const BuscarReportes = () => {
           </div>
           <div className="col-span-3  justify-self-center place-content-center ">
             <Buscar />
-            <div className="col-span-3 row-span-2">
+            <div className="col-span-3 row-span-2 mb-3 px-1">
               <CardReportSup />
             </div>
           </div>
