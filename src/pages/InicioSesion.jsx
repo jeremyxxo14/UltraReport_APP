@@ -56,7 +56,7 @@ export default function InicioSesion() {
       <div className="img-report absolute ml-5 flex justify-center items-center ">
         <img className="" src="/logoUltraReport.png" alt="" />
       </div>
-      <div className="Contenedor-APP grid grid-cols-3 grid-rows-5 gap-2 h-[100vh] ">
+      <div className="Contenedor-APP grid grid-cols-3  gap-2 h-[100vh] ">
         <div className=" col-span-3 flex justify-center items-center bg-[rgba(98,98,98,0.5)]">
           <span className="Ultrareport-string1">ULTRA</span>
           <span className="Ultrareport-string1">-</span>

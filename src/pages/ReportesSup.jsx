@@ -8,7 +8,7 @@ const ReportesSup = () => {
   return (
     <>
       <div className="Contenedor-APP ">
-        <div className="grid grid-cols-3 grid-rows-2  gap-2 min-h-screen ">
+        <div className="grid grid-cols-3   gap-2 min-h-screen ">
           <div className=" col-span-3 justify-self-center place-content-start ">
             <Header />
           </div>

@@ -35,7 +35,7 @@ const Buscar = () => {
         />
         <button
           type="submit"
-          className="text-white absolute end-0 bg-neutral-800 hover:bg-slate-600 focus:ring-4 focus:outline-none focus:ring-slate-600 font-medium rounded-lg text-sm px-4 py-2 dark:bg-neutral-700 dark:hover:bg-neutral-700 dark:focus:ring-slate-800"
+          className="text-white absolute end-0 m-2 bg-neutral-800 hover:bg-slate-600  focus:ring-4 focus:outline-none focus:ring-slate-600 font-medium rounded-lg text-sm px-4 py-2 dark:bg-neutral-700 dark:hover:bg-neutral-700 dark:focus:ring-slate-800"
         >
           Buscar
         </button>
