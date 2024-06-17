@@ -4,12 +4,13 @@ import Back from "../components/Back";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import { Typography } from "@mui/material";
+import { Toaster, toast } from "sonner";
 
 const FormularioSup = () => {
   return (
     <>
       <div className="Contenedor-APP ">
-        <div className="grid grid-cols-3 grid-rows-6  gap-2 max-h-full ">
+        <div className="grid grid-cols-3  gap-2 min-h-screen ">
           <div className=" col-span-3 row-span-full">
             <Header />
           </div>
@@ -75,14 +76,15 @@ const FormularioSup = () => {
               </div>
               <Link
                 className="EnviarButton-Apr p-3 my-3 rounded-full border-2 border-solid border-stone-950 text-zinc-50 borde transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1  hover:bg-red-700 "
-                to="/Home"
+                to="/HomeSup"
               >
                 ENVIAR INFORME
               </Link>
+              <Toaster />
             </div>
           </div>
           <div className=" col-span-3 h-full "></div>
-          <div className="col-span-3 justify-items-center place-content-center z-50 ">
+          <div className="col-span-3 justify-items-center place-content-end z-50 ">
             <Footer />
           </div>
         </div>

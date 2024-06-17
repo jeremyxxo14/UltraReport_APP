@@ -32,7 +32,7 @@ export default function ButtonBaseDemo() {
       url: "obs.jpg",
       title: "Observar Conducta",
       width: "25%",
-      route: "/FormularioSup",
+      route: "/OConducta",
     },
   ];
 

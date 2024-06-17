@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Perfil() {
   const nombre = "Juan";
   const apellido = " Rodrigues";
@@ -6,9 +8,9 @@ function Perfil() {
     <>
       <div className="">
         <div className="p-1 flex flex-row justify-between ">
-          <div className="img-report w-32 h-36 ">
+          <Link to={"/HomeSup"} className="img-report w-32 h-36 ">
             <img className="relative" src="/logoUltraReport.png" alt="" />
-          </div>
+          </Link>
           <div className=" flex flex-col justify-center m-10">
             <div className="">
               <span className="text-2xl">Supervisor</span>

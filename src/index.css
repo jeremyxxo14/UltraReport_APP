@@ -28,11 +28,12 @@
   font-style: normal;
   top: 0;
   bottom: 0;
-  color: #ffff;
+  color: #e5e7eb;
   box-sizing: border-box;
 }
 
 /*CONTENEDORES INDEX*/
+
 .Contenedor-APP {
   background-image: url(obs1.jpg);
   background-repeat: repeat;
@@ -46,6 +47,7 @@
   z-index: 10;
   background-repeat: repeat;
   background-size: unset;
+  filter: drop-shadow(1px 1px 20px #ff000054);
 }
 
 input {

@@ -8,6 +8,7 @@ import FormularioSup from "./pages/FormularioSup";
 import AdminGeneral from "./pages/AdminGeneral";
 import ReportesSup from "./pages/ReportesSup";
 import BuscarReportes from "./pages/BuscarReportes";
+import OConducta from "./pages/OConducta";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/*" element={<InicioSesion />} />
         <Route path="/ReportesSup" element={<ReportesSup />} />
         <Route path="/BuscarReportes" element={<BuscarReportes />} />
+        <Route path="/OConducta" element={<OConducta />} />
         {}
       </Routes>
     </>

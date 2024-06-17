@@ -3,6 +3,7 @@ import { Formik, Form, ErrorMessage } from "formik";
 import { useNavigate } from "react-router-dom";
 import RutAlert from "../components/RutAlert";
 import { json } from "react-router-dom";
+import { Toaster, toast } from "sonner";
 
 export default function InicioSesion() {
   const [rut, setRut] = useState("");
@@ -114,7 +115,10 @@ export default function InicioSesion() {
                   <button
                     className=" button-ini p-3  rounded-full border-2 border-solid border-stone-950 text-zinc-50 borde transition-transform duration-300 transform hover:scale-110 hover:-translate-y-1  hover:bg-red-700 "
                     type="submit"
-                    onClick={handleSubmit}
+                    onClick={(event) => {
+                      toast.error("My first toast");
+                      handleSubmit(event);
+                    }}
                   >
                     Entrar
                   </button>
